@@ -41,8 +41,8 @@ function Services() {
                     style={{left:'14rem'}}>
                 <Card
                     emoji={HeartEmoji}
-                    heading={'Design'}
-                    detail={"Photoshop,  Adobe, Illustrator"}
+                    heading={'Clouds'}
+                    detail={"AWS, Azure, GCP, Digital Ocean"}
                 />
             </motion.div>
             {/*second card*/}
@@ -55,8 +55,8 @@ function Services() {
                     style={{top:"12rem", left:"-4rem"}}>
                 <Card
                     emoji={Glasses}
-                    heading={"Developer"}
-                    detail={"Html, Css, JavaScript, React"}
+                    heading={"IAC Tool & CICD Tool"}
+                    detail={"Terraform, Jenkins, Github Action"}
                 />
             </motion.div>
             {/*third card*/}
@@ -69,8 +69,8 @@ function Services() {
                     style={{top:"19rem" , left:"12rem"}}>
                 <Card
                     emoji={Humble}
-                    heading={"Android"}
-                    detail={"Here i am beginner in Android"}
+                    heading={"Container Orchastration Technologies"}
+                    detail={"Docker, Kubernetes"}
                 />
             </motion.div>
             <div className='blur s-blur2' style={{background: "var(--purple)"}}></div>

@@ -26,7 +26,8 @@ function Intro() {
             <div className="i-name">
                 <span>Hy! I Am</span>
                 <span>Preet Patel</span>
-                <span>Frontend Developer with high level of experience in web desiging and development, producting the quality work</span>
+                <span> I specialize in cloud platforms such as AWS, Azure, and GCP. Additionally, I have expertise in Infrastructure as Code (IaC) tools like Terraform, as well as technologies for managing infrastructure, including Docker and Kubernetes. also I gained hands-on experience with Jenkins, Github Action, Linux Terminal.
+                </span>
             </div>
             <Link spy={true} to="Contact" smooth={true}>
                 <button className="button i-button">Hire me</button>
@@ -62,7 +63,7 @@ function Intro() {
                 transition={transition}
 
                 style={{top:'-4%',left:'60%'}}>
-              <FloatingDiv image={Crown} txt1="Web" txt2='Development'/>
+              <FloatingDiv image={Crown} txt1="DevOps" txt2=''/>
             </motion.div>
             <motion.div 
                 initial={{top:'18rem',left:'9rem'}}
@@ -70,7 +71,7 @@ function Intro() {
                 transition={transition}
             
                 style={{top:'18.2rem',left:'1rem'}}>
-              <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award"/>
+              <FloatingDiv image={thumbup} txt1="Flexible" txt2="To change Tools & technologies"/>
             </motion.div>
             {/*blur divs*/}
             <div className="blur" style={{background:'rgb(238 210 255'}}></div>

@@ -6,7 +6,7 @@ function Experience() {
     <div className="experience" id='Experience'>
         {/*first*/ }
         <div className="achievement">
-            <div className="circle">0+</div>
+            <div className="circle">1+</div>
             <span>years</span>
             <span>Experience</span>
         </div>
@@ -18,7 +18,7 @@ function Experience() {
         </div>
         {/*third*/}
         <div className="achievement">
-            <div className="circle">0</div>
+            <div className="circle">1</div>
             <span>companies</span>
             <span>work</span>
         </div>
